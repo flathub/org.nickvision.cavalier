@@ -26,7 +26,7 @@
         "*.a"
     ],
     "modules" : [
-        "fftw3f/fftw3f.json",
+        "shared-modules/linux-audio/fftw3f/fftw3f.json",
         {
             "name" : "iniparser",
             "buildsystem" : "simple",
