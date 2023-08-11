@@ -17,7 +17,8 @@
         "--socket=wayland",
         "--socket=pulseaudio",
         "--device=dri",
-        "--share=ipc"
+        "--share=ipc",
+        "--filesystem=xdg-run/pipewire-0"
     ],
     "cleanup":[
         "/include",
@@ -51,8 +52,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/karlstav/cava.git",
-                    "tag" : "0.8.3",
-                    "commit" : "746a3b1e6021e383aea9d0000f49d71fb24e1856"
+                    "tag" : "0.9.0",
+                    "commit" : "83b4cda8177c780c7895ae67384c2679e84cc0d9"
                 }
             ]
         },
@@ -80,7 +81,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/NickvisionApps/Cavalier.git",
-                    "commit": "e01f135faafea425661cbe97643439e022355516"
+                    "tag": "2023.8.1"
                 },
                 "nuget-sources.json"
             ]
