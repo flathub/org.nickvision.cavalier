@@ -80,7 +80,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/NickvisionApps/Cavalier.git",
-                    "tag": "2023.8.1"
+                    "commit": "3ee49ecfc623a007d6b1e908aa77eac7197a454c"
                 },
                 "nuget-sources.json"
             ]
