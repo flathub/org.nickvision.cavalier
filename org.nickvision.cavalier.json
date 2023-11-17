@@ -1,15 +1,15 @@
 {
     "app-id" : "org.nickvision.cavalier",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.dotnet7"
+        "org.freedesktop.Sdk.Extension.dotnet8"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/dotnet7/bin",
-        "append-ld-library-path": "/usr/lib/sdk/dotnet7/lib",
-        "append-pkg-config-path": "/usr/lib/sdk/dotnet7/lib/pkgconfig"
+        "append-path": "/usr/lib/sdk/dotnet8/bin",
+        "append-ld-library-path": "/usr/lib/sdk/dotnet8/lib",
+        "append-pkg-config-path": "/usr/lib/sdk/dotnet8/lib/pkgconfig"
     },
     "command" : "org.nickvision.cavalier",
     "finish-args":[
@@ -51,8 +51,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/karlstav/cava.git",
-                    "tag" : "0.9.0",
-                    "commit" : "83b4cda8177c780c7895ae67384c2679e84cc0d9"
+                    "tag" : "0.9.1"
                 }
             ]
         },
@@ -64,8 +63,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.6.0",
-                    "commit": "9adcab2d225fd6435edc85c72a0b67e33880e00b"
+                    "tag": "v0.10.0"
                 }
             ]
         },
@@ -80,7 +78,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/NickvisionApps/Cavalier.git",
-                    "commit": "3ee49ecfc623a007d6b1e908aa77eac7197a454c"
+                    "tag": "2023.11.0"
                 },
                 "nuget-sources.json"
             ]
